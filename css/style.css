@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(182, 197, 204);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 40%;
+  height: 80%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.close {
+  color: #fff;
+  margin-left: auto;
+}
+
+h3 {
+  color: white;
+  margin-left: 30px;
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+  background-color: gold;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.header::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 30px;
+}
+
+.message {
+  width: 100%;
+  background-color: #fff;
+  background-size: contain;
+  padding: 30px;
+}
+
+.nav___div {
+  background-color: darkgray;
+  width: 200px;
+  height: 1px;
+}
+
+.div___nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav___h {
+  color: darkgray;
+  margin-right: 30px;
+}
+
+.nav___list {
+  list-style: none;
+  width: 250px;
+  background-color: rgb(13, 143, 230);
+}
+
+.nav___p {
+  color: darkgrey;
+}
+
+.nav___list--gray {
+  list-style: none;
+  background-color: darkgrey;
+}
+
+.nav___text {
+  align-items: center;
+}
+
+.nav___box--end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav___p--end {
+  text-align: right;
+}
+
+.nav__header {
+  padding: 20px;
+}
+
+.nav___list--pink {
+  background-color: palevioletred;
+  margin-top: 40px;
+}
+
+.navv____hh {
+  color: gray;
+  margin: 0;
+}
+
+.hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hh_____navv {
+  color: blue;
+}
+
+.div____navvv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
